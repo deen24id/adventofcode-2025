@@ -3,4 +3,8 @@ project(adventofcode_2025)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(adventofcode_2025 main.cpp)
+add_executable(adventofcode_2025 main.cpp
+        Day01.h
+        Day02.h
+        Utils.h
+)
